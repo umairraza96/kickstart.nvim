@@ -12,5 +12,10 @@ return {
       position = 'right',
       width = 30,
     },
+    buffers = {
+      follow_current_file = {
+        enabled = true,
+      },
+    },
   },
 }
