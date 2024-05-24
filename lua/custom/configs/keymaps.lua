@@ -91,6 +91,9 @@ return {
     vim.cmd [[Neotree toggle]]
   end, { desc = 'Toggle [F]ile [E]xplorer' }),
 
+  map('n', '<leader>rf', function()
+    vim.cmd [[Neotree reveal]]
+  end, { desc = '[R]eveal [F]ile in Explorer' }),
   -- map('t', '<C-c>', [[<C-\><C-n>]], { desc = 'Exit terminal insert mode with ESC' }),
 
   -- Lazy
